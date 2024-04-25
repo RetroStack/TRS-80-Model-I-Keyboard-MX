@@ -1,50 +1,23 @@
 # TRS-80 Model 1 - MX Keyboard
 
-This project is a reimplementation of the original keyboard of the iconic TRS-80 Model 1 computer. My revision is designed to replicate the functionality of the original but using modern OEM MX style keycaps. The entire project is available under the MIT license.
+This project is a reimplementation of the original keyboard of the iconic TRS-80 Model 1 computer. My revision is designed to replicate the functionality of the original but using modern "OEM" MX style keycaps. The entire project is available under the MIT license.
 
 ![E2 Replica](/Latest/TRS80_Model_I_Keyboard_MX_E2_Photo.png)
-(Style to resemble original keyboard)
-
-## Customizability
-
-As modern keyboards generally only use 6 units wide spacebars (6u) instead of the original 8 units (8u) the Model I used, these set of keycaps are also only 6 units wide. That means that there is space next to the spacebar for two additional keys to fill the gap of the original keyboard bezel.
-
-When initially surveyed which keys should be put in place, I received a variety of opinions. I, therefore, opted to make this completely customizable:
-- on the PCB - by providing the ability to set jumpers onto every row and column of the keyboard matrix to select any key, including missing ones like the "Ctrl" key for the electric pencil program.
-- on the shield - by providing additional holes
-- as keycaps - by providing a variety of different colors and additional keycaps that were not there originally (e.g. "Ctrl" keycap)
-
-Additionally, I made the "Clear" and "Break" switches customizable as well. By default, they work as originally intended, but by cutting the trace between two solder jumper pads, you are able to provide jumpers between row and column for these keys as well.
-
-An additional key was also provided through the jumpers: a reset key. This makes it possible to control the systems reset switch that usually is on the back (inside) the case, but is now available on the keyboard itself. To make this work, only one jumper cable needs to be added from the keyboard PCB to the mainboard PCB.
-
-To simplify modification and customization beyond the initial setup, I made these jumper use the footprint of a 9-pin DIP switch.
-
-## Variations
-
-Following are a few potential variations:
-
-(Keyboard with no numpad with custom shield - smaller spacebar)
-
-(Keyboard with additional keys next to the spacebar)
-
-(Keyboard with a "Reset" key in place of "Break")
-
-(Keyboard with light number keycaps similar to the Model 4)
+(Style to resemble the original keyboard)
 
 ## Project Details
 
-The project consists of multiple parts, each with its own ordering process and consecutive assembly.
+The project consists of multiple parts, each with its own source files, example ordering process, and consecutive assembly.
 
 The parts are:
-- PCB replica - Provides holes for MX style keyswitches and moves ICs and other components to a place that less likely interfers with the shield and keyswitches. Additionally, provides electrical customizability.
-- Sheetmetal shield - This is required as the MX style keycaps have a much lower profile, requiring to move the shield closer to the case and keyboard bezel to be accessible. You can't use the original shield used for example for the sculpured ALPS keycaps.
-- 3D printed parts (LED standoff and bezels) - Provides optional parts like a much smaller LED standoff and various keyboard bezels to support all variations.
-- Custom keycaps - Keycaps with labeling that resemble closely the original keycap style. However, the keycaps are an OEM design and not sculpted like the originals. Each set supplies variations on color to enable customization.
+- PCB
+- Custom Keycaps
+- Shield
+- 3D printed parts (LED standoff and optional bezels)
 
-The assembly of the keyboard is described in the [Assembly Guide](TODO).
+The Assembly Guide is coming soon.
 
-### PCB
+## PCB
 
 The PCB has been implemented using KiCAD 7. The KiCAD project files are included in this repository.
 
@@ -57,40 +30,133 @@ In the "Latest" folder, you'll find the most up-to-date design files, including:
 - A Bill of Materials (BOM) in [PDF](/Latest/TRS80_Model_I_Keyboard_MX_E2_BOM.pdf) format.
 - The [full schematics](/Latest/TRS80_Model_I_Keyboard_MX_E2_Schematics.pdf) of the E2 revision.
 
-#### RetroStack Libraries
+### RetroStack Libraries
 
 To work with this KiCAD project, you'll need the RetroStack libraries for KiCAD. Please [follow this link](https://www.github.com/RetroStack/KiCAD-Libraries) to access and install these libraries.
 
-### Keycap Order Instructions
+### Supported Key Switches
 
-Go to: https://www.maxkeyboard.com/iso-layout-custom-color-cherry-mx-keycap-set-top-print-blank.html
-If URL doesn't work anymore, select the ISO layout keycap set for MX to have custom prints on top.
+This PCB supports both, the PCB mounted as well as the plate mounted MX-style key switches.
 
-Top Section:
+![Supported Key Switches](/Images/Various_Switches.png)
+
+Hole to cover both are provided on the PCB:
+
+![Footprint Holes in PCB](/Images/Keyswitch_Footprint.png)
+
+
+## Keycaps
+
+A template of keycaps is provided to resemble the original keycap design closely.
+
+- Keycap template in [Illustrator (.ai) format](/Latest/TRS80_Model_I_Keyboard_MX_E2_Keycap_Template.ai)
+- Keycap template in [SVG format](/Latest/TRS80_Model_I_Keyboard_MX_E2_Keycap_Template.svg)
+
+These templates should work with most keycap manufacturers.
+
+To simplify the ordering process, I've provided an additional template for MaxKeyboard.com. See the example order instructions below.
+
+### Keycap Order Instructions - MaxKeyboard.com
+
+Go to: [MaxKeyboard](https://www.maxkeyboard.com/iso-layout-custom-color-cherry-mx-keycap-set-top-print-blank.html)
+(If URL doesn't work anymore, select the ISO layout keycap set for MX from the store with custom prints on top.)
+
+On the page, select the following:
 - Select “105” (ISO 105-key (FULL SIZE) +US$5.00)
 - Select “6.0” (6.0x Unit Spacebar)
 - Select “A” (Top Print +US$15.00)
 - Select “NO I have my own” (if you don’t want a keycap puller)
 - Select “I will upload my print file (+US$10.00)”
-- Upload the file at “Upload Your Artwork” (the .ai file)
-- Add a comment “Please do not use homing keys!” (These are the little plastic dots and lines to find “home” without looking; this isn’t on the old keyboards)
+- Upload the file at “Upload Your Artwork” (get the correct template to upload [here](/Latest/TRS80_Model_I_Keyboard_MX_E2_105_6.0X_TOP_PRINT_COLOR_KEY.ai))
+- Add a comment “Please do not use homing keys!”
 
-This will be about US$55 without tax and shipping (early 2024).
+The last comment is optional, but it will make sure that you do not have these "bumps" in specific keys (e.g. see the "F" and "J" key of a modern standard keyboard). These are not on the original keyboard.
 
-NOTE: Some of the following steps were already defined above or in the file. Not sure what has precedence here, so do both the same just to be sure.
+This set of keycap will cost about US$55 without tax and shipping (early 2024).
 
-Now, what is left is the overall color design in the “DESCRIPTION” section at the bottom of the page:
+NOTE: Some of the following steps were already defined in the template file, but the website is not clear if it needs to be redefined. Just to be safe, follow the next steps as well.
+
+What is left is the overall color design in the “DESCRIPTION” section at the bottom of the page:
 - For 1. Bottom Row, select “6.0x Spacebar Row”
 - For 2. Keycap Color, select the color “Black” (first) and select “All Keys”. Then, select “beige”(4th) (white is too bright and beige fits better in my opinion), and click on the keys which should be white (I marked them in the preview picture above). Select the most right “Reset” key and click “red”. The template has a few repeated keys each with a different color scheme. This gives you the opportunity later to choose the one which you like the most.
 - For 3. Alphanumeric, leave everything as-is
 - For 4. Modifiers, leave everything as-is
 - For 5. OS Key, leave everything as-is
 - For 6. Text Color, click “white” (2nd) and “All Keys”. Then select one white keycap and click “black” (1st), and select all other white keycaps. (Probably not needed, but just in case!)
-- Make checkmark at “I confirm that the layout is correct”
+- Add checkmark at “I confirm that the layout is correct”
+
+At the end, the preview will look something like this:
+
+![Keycap Preview](/Images/Order_Color.png)
+
+It is correct that you can't see the labeling in this preview. That is provided in the template above and will not be applied to the preview you see.
 
 Finally, scroll up and click “Add To Cart”.
 
-Then, go to the cart and do the rest.
+You can customize the keycap colors, but be aware what the text color is sometimes white and other times black. Here is a preview with label color for reference:
+
+![Keycap Selection](/Images/Keyboard_Preview.png)
+
+## Shield
+
+The shield is different to the original keyboard shield.
+
+## Customizability
+
+Since there was an opportunity to improve upon the keyboard, I provided various ways to optionally customize your keyboard.
+
+### Additional Keys
+
+Modern keyboards generally use 6 units (6u) wide spacebars (or similar short sizes) instead of the 8 units (8u) the original Model I keyboard used. This replacement keyboard comes with a 6 units wide spacebar, which means that there is additional space next to the spacebar for two additional keys to fill the gap of the original keyboard bezel.
+
+![Full Keyboard with additional keys](/Images/Variations/Full_Keyboard_Additional_Keys.png)
+
+Any key can be mapped to these two additional keys by selecting the row and column:
+
+![Keyboard Mapper](/Images/Keyboard_Mapper.png)
+
+On the underside, you can add DIP switches (or simply use jumpers) to select the row and column:
+
+![Custom Mapping](/Images/Custom_Mapping_Additional_Keys.png)
+
+### Remap other Keys
+
+You can also remap the BREAK and CLEAR keys to anything you want:
+
+![Custom Clear and Break](/Images/Key_Mapping_Break_Clear.png)
+
+### Add Reset Key
+
+To emulate a popular Model 3 & 4 keyboard feature, the ability to add a reset key is provided:
+
+![Reset Key](/Images/Variations/Full_Keyboard_Reset_Key.png)
+
+Simply add a jumper to the keyboard:
+
+![Keyboard Jumper](/Images/Keyboard_Reset_Jumper.png)
+
+Then, connect to a via close to the Reset circuity on the main board:
+
+![Mainboard Jumper](/Images/Main_PCB_Reset_Jumper.png)
+
+![Connected Keyboard](/Images/Connected_Reset_Jumper.png)
+
+### Keycap Variations
+
+As each keycap set consists of 105 keys. The basic keyboard without numpad requires only 53 keys while with numpad it only needs 65 keys. Even with the additional 2 keys, we need at most 67 keys. There are 38 keys left (minus some unused key sizes and shapes), which can be duplicated. I've provided a few variations of keycaps in different colors, but also custom prints (like the CTRL key for "Electric Pencil"):
+
+![Keycap Selection](/Images/Keyboard_Preview.png)
+
+This provides a couple of variations (and more):
+
+![Keyboard with additional keys](/Images/Variations/Full_Keyboard_Additional_Light_Keys.png)
+![Keyboard with additional keys](/Images/Variations/Full_Keyboard_Light_Numbers.png)
+![Keyboard with additional keys](/Images/Variations/Full_Keyboard_Red_Break.png)
+![Keyboard with additional keys](/Images/Variations/Keyboard_Light_Keys.png)
+
+
+
+
 
 ## Main TRS-80 Model 1 Repository
 
