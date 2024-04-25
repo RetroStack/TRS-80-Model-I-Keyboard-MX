@@ -1,0 +1,11 @@
+Ref,Qty,Value,Component,Description
+"C1, C2",2,0.1uF,C,Unpolarized capacitor
+CR1,1,RED 5mm,LED,Light emitting diode
+J1,1,Connection Keyboad Side,Conn_01x20_2.54mm,"Generic connector, single row, 01x20"
+"J2, J3, J4, J5, J6, J7, J8, J9",8,~,Jumper_9Pin,Jumper for keymapping
+J10,1,Reset,Conn_01x01_Pin,
+R1,1,4.7k,R_Network08_Split,"8 resistor network, bussed resistors"
+R2,1,330,R,Resistor
+SW1-SW69,69,MX Switch,SW_Push,"Push button switch, generic, two pins; plate (preferred) or PCB mount"
+"Z1, Z2",2,74LS05,74LS05,Inverter Open Collect
+"Z3, Z4",2,74LS368,74LS368_Split,Hex buffer 3-State outputs
