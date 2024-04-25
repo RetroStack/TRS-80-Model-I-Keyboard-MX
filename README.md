@@ -9,14 +9,16 @@ This project is a reimplementation of the iconic TRS-80 Model 1 computer's origi
 The project consists of multiple parts, each with its source files, an example ordering process, and consecutive assembly.
 
 The parts are:
-- PCB
-- Keycaps
-- Shield
-- 3D printed parts (LED standoff and optional bezels)
+- [PCB](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#pcb)
+- [Keycaps](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#keycaps)
+- [Shield](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#shield)
+- [3D printed parts (LED standoff and optional bezels)](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#3d-printed-parts)
 
-Below is a description of the keyboard customization.
+Below is a description of the [keyboard customization](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#customizability).
 
 The Assembly Guide is coming soon.
+
+If you like this project, please consider [supporting it](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#support-this-project).
 
 ## PCB
 
