@@ -55,3 +55,20 @@ Shield:
 
 - Removal of spacebar clip holes
 - Adjusting LED hole 1mm to the right for better fitting
+
+## 17th May 2024 - E2E, Shield, Keycaps
+
+Keycaps:
+
+- Improved 3 character
+- Improved BREAK key
+- Improved CTRL key
+- Replaced lots of keycaps to also cover Model 3/4 keyboard
+
+PCB:
+
+- Widen footprint to support various spacebar keycap sizes
+
+Shield:
+
+- Widen shield holes for spacebar

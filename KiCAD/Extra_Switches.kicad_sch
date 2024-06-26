@@ -6,7 +6,7 @@
 
   (title_block
     (title "TRS-80 Model I - MX Keyboard Full")
-    (date "2024-04-13")
+    (date "2024-05-04")
     (rev "E2E")
     (company "RetroStack - Marcel Erz")
     (comment 2 "Including the default jumpers")
@@ -1884,9 +1884,6 @@
     (pin "9" (uuid 61bde1f6-bec8-456d-a63d-166c9a44e94d))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW77") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW77") (unit 1)
         )
@@ -1939,9 +1936,6 @@
     (pin "2" (uuid 4d79ad65-eacc-48ab-bf05-1b5249fc23a4))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW23") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW23") (unit 1)
         )
@@ -1984,9 +1978,6 @@
     (pin "9" (uuid 8ea1ef58-3f7c-4a8f-a86a-f423e62a80c8))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW73") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW73") (unit 1)
         )
@@ -2029,9 +2020,6 @@
     (pin "9" (uuid 294476c4-063b-4640-b034-9ddd754427ad))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW71") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW71") (unit 1)
         )
@@ -2100,9 +2088,6 @@
     (pin "9" (uuid 7068e7ae-7af1-4c43-b3da-7e2889ea5ff6))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW74") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW74") (unit 1)
         )
@@ -2145,9 +2130,6 @@
     (pin "9" (uuid 3a214c63-2bf2-407f-b3a4-b5ae1987b504))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW70") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW70") (unit 1)
         )
@@ -2174,9 +2156,6 @@
     (pin "2" (uuid f0e184b7-c10d-46cf-935b-951e662454a1))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW67") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW67") (unit 1)
         )
@@ -2228,9 +2207,6 @@
     (pin "2" (uuid 6b38fd5e-de4e-425b-bb3c-44d4f49f9b6e))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW68") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW68") (unit 1)
         )
@@ -2273,9 +2249,6 @@
     (pin "9" (uuid f19381f9-dcc3-4123-aaa5-1426db685c23))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW76") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW76") (unit 1)
         )
@@ -2318,9 +2291,6 @@
     (pin "9" (uuid 2ba5fda2-e5f8-49f9-a9cb-b3ec0493e66a))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW75") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW75") (unit 1)
         )
@@ -2347,9 +2317,6 @@
     (pin "2" (uuid f56c45ce-18fb-41f8-93b9-f69abe310279))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW16") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW16") (unit 1)
         )
@@ -2418,9 +2385,6 @@
     (pin "9" (uuid 2f44d18f-08df-43f0-9027-f6166ceb2831))
     (instances
       (project "TRS80_Model_I_Keyboard_MX_Full_E2"
-        (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
-          (reference "SW72") (unit 1)
-        )
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f/8553c21a-f67c-4a02-8cdd-bfea6d198afa"
           (reference "SW72") (unit 1)
         )

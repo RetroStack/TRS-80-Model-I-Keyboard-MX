@@ -91,7 +91,7 @@ At the end, the preview will look something like this:
 
 ![Keycap Preview](/Images/Order_Color.png)
 
-It is correct that you can't see the labeling in this preview. That is provided in the template above and will not be applied to the preview you see. The blue keycaps are not used and can be discarded. They do not fit the Model 1 keyboard.
+It is correct that you can't see the labeling in this preview. That is provided in the template above and will not be applied to the preview you see. Some empty keys won't be used and can be discarded. They do not fit the Model 1 keyboard.
 
 Finally, scroll up and click “Add To Cart”.
 
