@@ -72,3 +72,10 @@ PCB:
 Shield:
 
 - Widen shield holes for spacebar
+
+## 22nd Aug 2024 - E2F
+
+PCB:
+
+- Widen hole on the left to give more clearance for the case
+- Re-arranged some traces to reduce the chance for accidental trace cuts
