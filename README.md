@@ -16,7 +16,7 @@ The parts are:
 
 Below is a description of the [keyboard customization](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#customizability).
 
-The Assembly Guide is coming soon.
+See the [Assembly Guide](#assembly-guide) and [User Guide](#user-guide) below.
 
 If you like this project, please consider [supporting it](https://github.com/RetroStack/trs-80-model-i-keyboard-mx/blob/main/README.md#support-this-project).
 
