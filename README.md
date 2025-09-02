@@ -66,11 +66,10 @@ Go to: [MaxKeyboard](https://www.maxkeyboard.com/iso-layout-custom-color-cherry-
 (If URL doesn't work anymore, select the ISO layout keycap set for MX from the store with custom prints on top.)
 
 On the page, select the following:
-- Select “105” (ISO 105-key (FULL SIZE) +US$5.00)
+- This should be for the “105” (ISO 105-key FULL SIZE)
 - Select “6.0” (6.0x Unit Spacebar)
-- Select “A” (Top Print +US$15.00)
 - Select “NO I have my own” (if you don’t want a keycap puller)
-- Select “I will upload my print file (+US$10.00)”
+- Select “I will upload my print file (+US$30.00)”
 - Upload the file at “Upload Your Artwork” (get the correct template to upload [here](/Latest/TRS80_Model_I_Keyboard_MX_E2_105_6.0X_TOP_PRINT_COLOR_KEY.ai))
 - Add a comment “Please do not use homing keys!”
 
