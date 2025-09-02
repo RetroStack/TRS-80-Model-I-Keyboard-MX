@@ -62,7 +62,7 @@ These templates should work with most keycap manufacturers.
 
 ### Order Instructions - MaxKeyboard.com
 
-Go to: [MaxKeyboard](https://www.maxkeyboard.com/iso-layout-custom-color-cherry-mx-keycap-set-top-print-blank.html)
+Go to: [MaxKeyboard](https://maxkeyboard.com/iso-105-layout-custom-color-cherry-mx-keycap-set.html)
 (If URL doesn't work anymore, select the ISO layout keycap set for MX from the store with custom prints on top.)
 
 On the page, select the following:
